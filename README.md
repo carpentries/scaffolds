@@ -3,17 +3,17 @@
 This repository contains links to online tools that will help learners follow
 lessons if they are having technical difficulties installing required software.
 
-| Lesson | Resources |
-|--------|-----------|
-| SWC Python Inflammation|JupyterHub: [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation) JupyterLab: [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab)|
-| SWC Python Gapminder|JupyterHub: [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder) JupyterLab: [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab)|
-| SWC R Inflammation||
-| SWC R Gapminder||
-| DC Ecology R||
-| DC Ecology Python||
-| DC Social Sciences R (Python version is not official)||
-| DC Geospatial (R only)||
-| DC Genomics (non-R only)||
+| Lesson | JupyterHub | JupyterLab | RStudio (binder) | RStudio (cloud) |
+|--------|-----------|--------|-----------|--------|
+| SWC Python Inflammation | [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation) | [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab) | | |
+| SWC Python Gapminder | [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder) | [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab) | | |
+| SWC R Inflammation | | | | |
+| SWC R Gapminder | | | | |
+| DC Ecology R | | | | |
+| DC Ecology Python | | | | |
+| DC Social Sciences R (Python version is not official) | | | | |
+| DC Geospatial (R only) | | | | |
+| DC Genomics (non-R only) | | | | |
 
 ## How this works
 
@@ -30,7 +30,10 @@ git checkout --orphan <branchname>
 git rm --cached -r .
 ```
 
-From there, the project for the learner can be set up and committed.
+The project can then be set up for the learner with the data set in a `data/`
+directory and the setup instructions inside of a hidden `.binder/` directory
+according to these set up rules: https://mybinder.readthedocs.io/en/latest/howto/index.html
+
 
 [rstudio-cloud]: https://rstudio.cloud
 [my-binder]: https://mybinder.org
