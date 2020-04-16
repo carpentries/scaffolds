@@ -8,7 +8,7 @@ lessons if they are having technical difficulties installing required software.
 | SWC Python Inflammation | [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation) | [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab) | | |
 | SWC Python Gapminder | [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder) | [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab) | | |
 | SWC R Inflammation | | | | |
-| SWC R Gapminder | | | | |
+| SWC R Gapminder | | | [![Click here to launch r-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-r-novice-gapminder?urlpath=rstudio)| |
 | DC Ecology R | | | | |
 | DC Ecology Python | | | | |
 | DC Social Sciences R (Python version is not official) | | | | |
