@@ -1,7 +1,7 @@
 install.packages("gapminder")
 install.packages("plyr")
 install.packages("tidyr")
-install.pacakges("ggplot2")
+install.packages("ggplot2")
 install.packages("ProjectTemplate")
 install.packages("knitr")
 install.packages("rmarkdown")
