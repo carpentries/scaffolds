@@ -6,7 +6,7 @@ lessons if they are having technical difficulties installing required software.
 | Lesson | Resources |
 |--------|-----------|
 | SWC Python Inflammation|JupyterHub: [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation) JupyterLab: [![Click here to launch python-novice-inflammation](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab)|
-| SWC Python Gapminder||
+| SWC Python Gapminder|JupyterHub: [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder) JupyterLab: [![Click here to launch python-novice-gapminder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab)|
 | SWC R Inflammation||
 | SWC R Gapminder||
 | DC Ecology R||
