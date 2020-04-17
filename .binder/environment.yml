@@ -1,1 +1,6 @@
-dependencies:  - matplotlib
+dependencies:  
+  - matplotlib
+  - numpy
+  - pandas
+  - plotnine
+  - sqlite3
