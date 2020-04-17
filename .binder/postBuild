@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Download data files to binder
+
+wget -O data/full.zip https://ndownloader.figshare.com/articles/2009586/versions/10
+unzip data/full.zip
