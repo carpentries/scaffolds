@@ -6,7 +6,7 @@ RUN chown -R ${NB_USER} ${HOME}
 USER ${NB_USER}
 
 
-RUN R -e "getwd()"
+RUN R -e "list.files()"
 RUN R -e "options(repos = list(CRAN = paste0('http://mran.revolutionanalytics.com/snapshot/', substring(readLines('runtime.txt'), 3, 12)))); source('install.R')"
 
 RUN exit 0
