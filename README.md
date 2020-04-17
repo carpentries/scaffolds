@@ -13,7 +13,7 @@ lessons if they are having technical difficulties installing required software.
 | DC Ecology Python | [![Click here to launch dc-ecology-python JupyterHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python) | [![Click here to launch dc-ecology-python JupyterLab](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=lab) | | |
 | DC Social Sciences R (Python version is not official) | | | [![Click here to launch dc-social-science-r RStudio](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/dc-social-science-r?urlpath=rstudio) | [dc-social-science in RStudio Cloud](https://rstudio.cloud/project/1167422) |
 | DC Geospatial (R only) | | | [![Click here to launch dc-geospatial-r RStudio](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/dc-geospatial-r?urlpath=rstudio) | [dc-geospatial-r in RStudio Cloud](https://rstudio.cloud/project/1167320)|
-| DC Genomics (non-R only) | | | [![Click here to launch dc-genomics RStudio](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/dc-genomics?urlpath=rstudio) | |
+| DC Genomics (non-R only) | | | <!-- NOT YET AVAILABLE [![Click here to launch dc-genomics RStudio](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/dc-genomics?urlpath=rstudio) --> | |
 
 # Guide to Resources
 
