@@ -2,7 +2,7 @@ FROM rocker/binder:3.6.0
 LABEL maintainer='Zhian N. Kamvar'
 USER root
 COPY . ${HOME}
-COPY ../data ${HOME}/data
+COPY ./data ${HOME}/data
 RUN chown -R ${NB_USER} ${HOME}
 USER ${NB_USER}
 
