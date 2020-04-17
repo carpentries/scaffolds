@@ -3,4 +3,3 @@ dependencies:
   - numpy
   - pandas
   - plotnine
-  - sqlite3
