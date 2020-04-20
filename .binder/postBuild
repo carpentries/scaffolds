@@ -2,4 +2,3 @@
 
 # setup for jupyter lab
 jupyter labextension install @jupyterlab/toc
-yes | unminimize
