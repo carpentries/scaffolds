@@ -1,3 +1,2 @@
 nano
-man-db
 
