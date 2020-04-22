@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# A bit of a hack to force the downloaded man pages to source here.
+#
+# These man pages were a bit difficult to come by. The container by default
+# comes "minimized", which means that it doesn't contain text of any licenses or
+# manual pages. This does compress the image a bit, but defeats using this as a
+# method for instructing folks on how to learn BASH.
+#
+# The first step was to ensure man was installed via the `ubuntu-standard` apt
+# package (which I got from the unminimize command). I used the following
+# commands to get the man pages here:
+#
+#     repo2docker .
+#     <CTRL+Z>
+#     R2D=$(docker ps -f status=running --format "{{.Names}}")
+#     docker exec -it -u 0:0 ${R2D} bash
+#     yes | DEBIAN_FRONTEND=noninteractive sh -x /usr/local/sbin/unminimize
+#     exit
+#     docker cp ${R2D}:/usr/share/man .binder/man/
+#     cd .binder/man/ && ls -1 | grep -v man1 | xargs rm -rf
+#     cd -
+#     fg
+#     <CTRL+C>
+#
+export MANPATH="${HOME}/.binder/man"
+
+eval "$@"
