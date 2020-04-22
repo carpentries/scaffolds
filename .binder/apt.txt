@@ -1,1 +1,1 @@
-nano
+nanoubuntu-standard
