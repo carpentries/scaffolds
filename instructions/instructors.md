@@ -1,6 +1,10 @@
 # Supporting Learners with Carpentries' Scaffolds
 
-This document is for instructors who are looking to provide solutions for learners who have had trouble installing the required software for official Carpentries lessons. We have designed these resources (that we are calling Scaffolds) to minimize the effort required for you and the learner. We will cover the following topics here:
+This document is for instructors who are looking to provide solutions for
+learners who have had trouble installing the required software for official
+Carpentries lessons. We have designed these resources (that we are calling
+Scaffolds) to minimize the effort required for you and the learner. We will
+cover the following topics here:
 
  - [Platforms](#platforms) 
     - [RStudio Cloud](#rstudio-cloud)
@@ -157,6 +161,57 @@ scripts and data and re-upload them before and after breaks.
    ![Two step process to upload a file to Binder](img/upload-notebook.png)
 
 # Links to lessons
+
+
+## Software Carpentry
+
+### Shell Novice
+
+Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=tree>
+Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=lab>
+
+### Python Novice Inflammation
+
+Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=tree>
+Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab>
+
+### Python Novice Gapminder
+
+Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=tree>
+Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab>
+
+### R Novice Inflammation
+
+<https://rstudio.cloud/project/1167299>
+
+### R Gapminder
+
+<https://rstudio.cloud/project/1151792>
+
+## Data Carpentry
+
+### Python Ecology
+
+Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=tree>
+Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=lab>
+
+### R Ecology
+
+<https://rstudio.cloud/project/1167280>
+
+### R Social Science
+
+<https://rstudio.cloud/project/1167422>
+
+### R Geospatial
+
+<https://rstudio.cloud/project/1167320>
+
+## Library Carpentry
+
+### OpenRefine
+
+[Read instructions here](#openrefine)
 
 # By Language
 
