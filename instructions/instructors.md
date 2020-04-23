@@ -54,19 +54,26 @@ Because of the security aspect, this is the **only interface recommended for
 ### How to use
 
 You should give the learner a project link that will have the format
-`https://rstudio.cloud/XXXXXXXX` where XXXXXXX is a unique project number. From
+`https://rstudio.cloud/XXXXXXX` where XXXXXXX is a unique project number. From
 there, they should follow these steps:
+
+> This example shows the steps for "R for Reproducible Scientific Analysis":
+> <https://rstudio.cloud/project/1151792>
 
 1. Click on the link, which will open a login prompt. They should log in using
    one of the three provided methods.
    ![RStudio Cloud login screen](img/rstudio-login.png)
-2. Once they log in, they will see a temporary project screen. They should click on the "Save a permanent copy" button in the top right.
-   <img src="img/temp-proj.png" alt="Temporary project for RStudio Cloud"/>
-
-
-
-
-
+   > Note: if the service gives you an error message that says “You do not have
+   > access”, reenter the URL to try again.
+2. Once they log in, they will see a temporary project screen. They should
+   click on the "Save a permanent copy" button in the top right.
+   ![Temporary project for RStudio Cloud](img/temp-proj.png)
+3. At this point, they will be in their own private copy of the project. Any
+   changes they make will be saved. When they close their session, they can
+   restore it by visiting <https://rstudio.cloud> and clicking on the project
+   on their homepage
+   ![RStudio Cloud home page showing the project "R for Reproducible Scientific
+   Analysis"](img/rstudio-home.png)
 
 
 ## My Binder
