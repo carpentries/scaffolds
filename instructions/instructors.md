@@ -59,9 +59,9 @@ there, they should follow these steps:
 
 1. Click on the link, which will open a login prompt. They should log in using
    one of the three provided methods.
-   <img src="img/rstudio-login.png" alt="Login page for RStudio Cloud" style="width: 50%" />
+   ![RStudio Cloud login screen](img/rstudio-login.png)
 2. Once they log in, they will see a temporary project screen. They should click on the "Save a permanent copy" button in the top right.
-   <img src="img/temp-proj.png" alt="Temporary project for RStudio Cloud" style="width 50%" />
+   <img src="img/temp-proj.png" alt="Temporary project for RStudio Cloud"/>
 
 
 
