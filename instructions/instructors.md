@@ -107,12 +107,14 @@ Drawbacks:
  - 10 minutes of inactivity will result in the container being shut down with
    all data lost. 
  - [Everything done in the the Binder session is potentially visible to the world](https://mybinder.readthedocs.io/en/latest/faq.html#can-i-push-data-from-my-binder-session-back-to-my-repository)
+ - Limit of 100 simultaneous users per repository
 
 ### Recommended lessons
 
 [Python](#python) lesson are a natural choice for this environment.
 [Shell](#shell) lessons are also recommended for this due to the presence of
-nano. 
+nano. [OpenRefin](#openrefine) lessons can be used through this service with
+data from the user's computer. 
 
 Due to security issues, DO NOT use this interface for the [Git](#git) lessons.
 
@@ -202,58 +204,48 @@ Here are the steps for setting up a Git session within RStudio Cloud:
 
 ## Python
 
-<https://swcarpentry.github.io/python-novice-inflammation/> 
+Python lessons should be hosted via [My Binder][binder]. Please [read our 
+documentation on My Binder](#my-binder) for details. 
 
-### Important caveats
+**At least half an hour before the workshop**, click on the link to the instance
+and make sure that it loads properly. Please let the learners know that this
+resource is available, but stress that it is not a replacement for installing
+python on their own machines. Please ask your learners to inform you if they
+are using this solution.
 
-This service is not designed for many users at once, so please try to install
-software on your own computer before trying this solution to avoid strain on
-the system.
+## R
 
-At the moment, there are no man pages (Zhian is hard at work to fix this!)
+R lessons should be hosted via [RStudio Cloud][rs-cloud]. Please [read our
+documentation on RStudio Cloud](#rstudio-cloud) for details.
 
-For Learners
-Please only use this service if you have attempted to install the required software and have been unsuccessful. These instructions should replace the setup instructions on the course webpage. All the lesson materials and software will be included. Please let your instructor know if you are using this solution.
+RStudio Cloud DOES NOT have nano installed, so your learners will have to use
+the text editor in RStudio to create files.
 
-Click on this link. The Jupyter instance will take anywhere from 30 second to 10 minutes to load, so please be patient. You will see a screen that looks like this: 
-Once the instance loads, enter the data/ directory and click on New > Python 3 from the dropdown menu in the top right corner. 
+## OpenRefine
 
-When you are done for the day, save your work to your computer with the download button.
+If anyone has trouble installing OpenRefine, they can access a [My
+Binder][binder] instance of OpenRefine 3.2:
+<https://mybinder.org/v2/gh/betatim/openrefineder/master?urlpath=%2Fopenrefine>
 
-You can re-upload it at the beginning of the next day (note, you have to press the upload button (1) to select your file and then confirm your upload again by pressing a second upload button (2))
+Please [read our documentation on My Binder](#my-binder) for details and caveats.
 
-For Instructors
-At least half an hour before the workshop, click on the link to the instance and make sure that it loads properly. Please let the learners know that this resource is available, but stress that it is not a replacement for installing python on their own machines. Please ask your learners to inform you if they are using this solution. If you are used to teaching with Jupyter Lab, you can have your students use this url: https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab 
+Give the above URL to the learners and have them click on the link. 
 
+When learners open this link, they will see a loading page which will take 30
+seconds to 10 minutes to fully load, so please be patient.
 
+![open refine loading](img/openrefine-start.png)
 
-R for Reproducible Scientific Analyses
-<http://swcarpentry.github.io/r-novice-gapminder/>
+Once it loads, the learners will see a window that will match an OpenRefine
+session. Please ignore the yellow warning bar at the top saying there is a new
+version of OpenRefine.
 
-This solution uses the 
-For Learners
-Please only use this solution if you were not successful installing R, RStudio, and Git. You should only need an internet connection for this to work. Please let your instructor know if you are using this solution.
-
-Open this link to RStudio cloud <https://rstudio.cloud/project/1151792> and log in by either creating an account or with google/github
-(NOTE: if the service gives you an error message that says “You do not have access”, reload the page to try again)
-When the project loads, save a permanent copy to your workspace
-Any changes you make will be saved. When you come back to your workspace, go to https://rstudio.cloud and click on the project name to open where you left off.
-
-For Instructors
-Please ask your learners if they are using this solution. All of the data should persist in their rstudio cloud account as long as they follow the instructions above. There is no nano editor for the Bash lesson, so learners will have to use the RStudio editor window when going through the Shell lesson.
+![Open Refine Home](img/open-refine-home.png)
 
 
-OpenRefine
-
-If anyone has trouble installing OpenRefine, they can access a My Binder instance of OpenRefine 3.2: https://mybinder.org/v2/gh/betatim/openrefineder/master?urlpath=%2Fopenrefine 
-
-When you open this link, you will see a loading page which will take 30 seconds to 10 minutes to fully load, so please be patient.
-
-Once it loads, you will see a window that will match an OpenRefine session. Please ignore the yellow warning bar at the top saying there is a new version of OpenRefine.
-
-
-
-The learner can use files from their computer just like the installed version of OpenRefine. The only known issue is that it is not currently possible to upload previous OpenRefine projects. 
+The learner can use files from their computer just like the installed
+version of OpenRefine. The only known issue is that it is not currently
+possible to upload previous OpenRefine projects. 
 
 
 [binder]: https://mybinder.org
