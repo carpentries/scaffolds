@@ -23,7 +23,11 @@ outline their benefits and challenges in the next two sections.
 
 ## RStudio Cloud
 
-[RStudio Cloud][rs-cloud] is a service from [RStudio](https://rstudio.com), which is an online RStudio session that is free for the moment (they are still working on their pricing, so it may change in the future). This solution has been used in university classroom contexts for a couple of years and is stable. For more information, see this talk: <https://rstd.io/cloud-classroom>.
+[RStudio Cloud][rs-cloud] is a service from [RStudio](https://rstudio.com),
+which is an online RStudio session that is free for the moment (they are still
+working on their pricing, so it may change in the future). This solution has
+been used in university classroom contexts for a couple of years and is stable.
+For more information, see this talk: <https://rstd.io/cloud-classroom>.
 
 Advantages:
 
@@ -45,8 +49,8 @@ Drawbacks:
 ### Recommended Lessons
 
 [R](#r) lessons are recommended for this solution. If you are also teaching a
-shell module, it is still possible to use this solution, but inform your learners
-that they should use the built in text editor for this. 
+[shell](#shell) module, it is still possible to use this solution, but inform
+your learners that they should use the built in text editor for this. 
 
 Because of the security aspect, this is the **only interface recommended for
 [Git](#git) lessons**.
@@ -78,15 +82,77 @@ there, they should follow these steps:
 
 ## My Binder
 
-[My Binder][binder] is an open source project that is largely built for open science and reproducibility. The project is Python-centric, but is flexible enough to provide interfaces to RStudio and OpenRefine. There is no login required for users, but it can take some time for the sessions to start if new instances need to start
+[My Binder][binder] is an open source project that is largely built for open
+science and reproducibility. The project is Python-centric, but is flexible
+enough to provide interfaces to RStudio and OpenRefine. There is no login
+required for users, but it can take several minutes for the sessions to start if
+the images have not been used recently.
 
- - The session is served over the internet and can take anywhere from 30
-   seconds to 10 minutes to start up the first time. 
- - Files can be uploaded to the session, but you cannot save your session. 
-   Between sessions, learners must save the files to their computers.
- - 10 minutes of inactivity will result in the container being shut down with all data lost. 
- - Everything done in the the Binder session is visible to the world: <https://mybinder.readthedocs.io/en/latest/faq.html#can-i-push-data-from-my-binder-session-back-to-my-repository>
- - Any other concerns, please see the FAQ: https://mybinder.readthedocs.io/en/latest/faq.html 
+FAQ: https://mybinder.readthedocs.io/en/latest/faq.html 
+
+Advantages:
+
+ - Identical environment to all python lessons teaching Jupyter Notebooks or
+   Jupyter Lab
+ - Access to a full-featured shell with nano installed. 
+ - Flexible interface (can also host Rstudio, JupyterLab, and OpenRefine)
+
+Drawbacks:
+
+ - Startup can take anywhere from 30 seconds to 30 minutes the first time
+   (dependent on package installation, this is more true for R-based lessons
+   than python-based lessons).  
+ - Files can be uploaded to the session, but the project state does not persist.
+   **Between sessions, learners must save the files to their computers.**
+ - 10 minutes of inactivity will result in the container being shut down with
+   all data lost. 
+ - [Everything done in the the Binder session is potentially visible to the world](https://mybinder.readthedocs.io/en/latest/faq.html#can-i-push-data-from-my-binder-session-back-to-my-repository)
+
+### Recommended lessons
+
+[Python](#python) lesson are a natural choice for this environment.
+[Shell](#shell) lessons are also recommended for this due to the presence of
+nano. 
+
+Due to security issues, DO NOT use this interface for the [Git](#git) lessons.
+
+### How to use
+
+You should give the learner a project link that will have the format
+`https://mybinder.org/v2/gh/carpentries/scaffolds/<lesson>?urlpath=<interface>` 
+where `<lesson>` is the lesson name with the curriculum prefix (e.g.,
+<https://swcarpentry.github.io/shell-novice> would be `swc-shell-novice`) and
+`<interface>` will be one of tree or lab to indicate Jupyter Notebook or Jupyter
+Lab interface, respectively. 
+
+You can copy these links from those listed in the [links to lessons](#links-to-lessons).
+
+> **IMPORTANT**: because these images can take some time to load the first time, 
+> please click on the link at least a half an hour before you give it to the
+> learner and let it load in the background so that they don't have to wait 30
+> minutes for it to load. 
+
+Here is an example workflow from the python-novice-inflammation lesson using Jupyter Lab:
+<https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=tree>
+
+Once the learner has the link, here is their process:
+
+1. Open the link in the browser and wait for it to fully load
+   ![Binder loading screen](img/binder-start.png)
+   > Note: if any error occurs, reload the page to try again.
+2. Double click on the data/ directory and click on the "New" button in the top
+   right to select a new Python 3 notebook.
+   ![Image of Jupyter Notebook interface creating a new Python 3 notebook](img/new-py3.png)
+
+Because data is not persistant, the learner will need to download all new
+scripts and data and re-upload them before and after breaks. 
+
+1. The learner should save their work to their computer using the download button
+   ![Downloading a Jupyter Notebook that says "hello world"](img/download-notebook.png)
+2. For the next session, if you are using the same materials, then the learner should
+   upload their notebook (which is a threestep process of pressing "Upload",
+   choosing the file, and then pressing "Upload" for that file)
+   ![Two step process to upload a file to Binder](img/upload-notebook.png)
 
 # Links to lessons
 
@@ -96,8 +162,8 @@ there, they should follow these steps:
 
 <http://swcarpentry.github.io/git-novice/>
 
-Most workshops will include git as part of the content. While both RStudio
-Cloud and My Binder have git installed, only RStudio Cloud is currently
+Most workshops will include git as part of the content. While both [RStudio
+Cloud][rs-cloud] and My Binder have git installed, only RStudio Cloud is currently
 recommended for use with the Git Lesson as long as each learner ensures they
 have saved a copy of the materials to their own account. The primary reason for
 recommending RStudio Cloud over My Binder is because sensitive information
