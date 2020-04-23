@@ -92,7 +92,7 @@ enough to provide interfaces to RStudio and OpenRefine. There is no login
 required for users, but it can take several minutes for the sessions to start if
 the images have not been used recently.
 
-FAQ: https://mybinder.readthedocs.io/en/latest/faq.html 
+FAQ: <https://mybinder.readthedocs.io/en/latest/faq.html>
 
 Advantages:
 
@@ -103,9 +103,8 @@ Advantages:
 
 Drawbacks:
 
- - Startup can take anywhere from 30 seconds to 30 minutes the first time
-   (dependent on package installation, this is more true for R-based lessons
-   than python-based lessons).  
+ - Startup can take anywhere from 30 seconds to 10 minutes the first time
+   (dependent on package installation, R-based lessons take much longer than python lessons).  
  - Files can be uploaded to the session, but the project state does not persist.
    **Between sessions, learners must save the files to their computers.**
  - 10 minutes of inactivity will result in the container being shut down with
