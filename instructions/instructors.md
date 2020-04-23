@@ -163,13 +163,30 @@ scripts and data and re-upload them before and after breaks.
 <http://swcarpentry.github.io/git-novice/>
 
 Most workshops will include git as part of the content. While both [RStudio
-Cloud][rs-cloud] and My Binder have git installed, only RStudio Cloud is currently
-recommended for use with the Git Lesson as long as each learner ensures they
-have saved a copy of the materials to their own account. The primary reason for
-recommending RStudio Cloud over My Binder is because sensitive information
-(e.g. passwords/usernames) are not guaranteed to be secure in a Binder session.
-The only way to have learners interact with git and github in an online
-environment is with RStudio cloud. 
+Cloud][rs-cloud] and [My Binder][binder] have git installed, only RStudio Cloud
+is currently recommended for use with the Git Lesson as long as each learner
+ensures they have saved a copy of the materials to their own account. The
+primary reason for recommending RStudio Cloud over My Binder is because
+sensitive information (e.g. passwords/usernames) are not guaranteed to be
+secure in a Binder session. **The only secure way to have learners interact
+with git and github in an online environment is with RStudio Cloud.**
+
+Because this lesson creates all the materials, you can instruct the users to
+create a new project via RStudio cloud. We have provided [information for
+using RStudio Cloud](#rstudio-cloud) in this document.
+
+Here are the steps for setting up a Git session within RStudio Cloud:
+
+1. Navigate your browser to <https://rstudio.cloud> and login/sign up as needed
+  ![Login screen for RStudio Cloud](img/login-rstudio.png)
+2. Once signed in, click on the "New Project" button
+  ![New Project for RStudio Cloud](img/rstudio-new-project.png)
+3. For consistency, when RStudio opens, create a new folder called "Desktop"
+  ![Create new folder](img/rstudio-first.png)
+4. Click on the "Terminal" tab in the top left of the console window
+  ![Click on Terminal tab](img/rstudio-terminal.png)
+5. The command prompt will look similar to this image
+  ![RStudio command prompt](img/rstudio-cmd.png)
 
 ### Important caveats
 
@@ -178,10 +195,10 @@ environment is with RStudio cloud.
  - It is not possible to copy and paste into RStudio terminals using keyboard
    shortcuts, so be sure they are aware of that. 
 
-If you want to be able to see what your learners are doing, then you can
-instruct them to use shellshare (Thanks to David Perez-Suarez for bringing our
-attention to this) by copying and pasting the linux command in their terminal
-at the beginning and sharing the link with you.
+<!-- If you want to be able to see what your learners are doing, then you can -->
+<!-- instruct them to use shellshare (Thanks to David Perez-Suarez for bringing our -->
+<!-- attention to this) by copying and pasting the linux command in their terminal -->
+<!-- at the beginning and sharing the link with you. -->
 
 ## Python
 
