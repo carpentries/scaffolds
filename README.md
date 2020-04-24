@@ -3,6 +3,10 @@
 This repository contains links to online tools that will help learners follow
 lessons if they are having technical difficulties installing required software.
 
+**If you are administering a workshop, please visit [our resource guide](./instructions/workshop-coordination.md#supporting-learners-with-carpentries-scaffolds)**
+
+# Quick Links to resources
+
 | Lesson | JupyterHub | JupyterLab | RStudio (binder) | RStudio (cloud) |
 |--------|-----------|--------|-----------|--------|
 | SWC Shell Novice | [![Click here to launch shell-novice](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice) | [![Click here to launch shell-novice](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=lab) | | |
