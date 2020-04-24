@@ -171,49 +171,69 @@ scripts and data and re-upload them before and after breaks.
 
 ### Shell Novice
 
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/shell.md>
+
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=lab>
 
 ### Python Novice Inflammation
+
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/python.md>
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab>
 
 ### Python Novice Gapminder
 
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/python.md>
+
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab>
 
 ### R Novice Inflammation
 
-<https://rstudio.cloud/project/1167299>
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+
+Link to project: <https://rstudio.cloud/project/1167299>
 
 ### R Gapminder
 
-<https://rstudio.cloud/project/1151792>
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+
+Link to project: <https://rstudio.cloud/project/1151792>
 
 ## Data Carpentry
 
 ### Python Ecology
+
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/python.md>
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=lab>
 
 ### R Ecology
 
-<https://rstudio.cloud/project/1167280>
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+
+Link to project: <https://rstudio.cloud/project/1167280>
 
 ### R Social Science
 
-<https://rstudio.cloud/project/1167422>
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+
+Link to Resources: <https://rstudio.cloud/project/1167422>
 
 ### R Geospatial
 
-<https://rstudio.cloud/project/1167320>
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+
+Link to Resources: <https://rstudio.cloud/project/1167320>
 
 ## Library Carpentry
 
 ### OpenRefine
+
+Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/openrefine.md>
 
 [Read instructions here](#openrefine)
 
