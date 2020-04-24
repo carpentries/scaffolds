@@ -264,11 +264,11 @@ Here are the steps for setting up a Git session within RStudio Cloud:
 
 1. Navigate your browser to <https://rstudio.cloud> and login/sign up as needed
   ![Login screen for RStudio Cloud](img/login-rstudio.png)
-2. Once signed in, click on the "New Project" button
-  ![New Project for RStudio Cloud](img/rstudio-new-project.png)
 
 ##### Creating a New Project
 
+2. Once signed in, click on the "New Project" button
+  ![New Project for RStudio Cloud](img/rstudio-new-project.png)
 3. For consistency, when RStudio opens, create a new folder called "Desktop"
   ![Create new folder](img/rstudio-first.png)
 4. Click on the "Terminal" tab in the top left of the console window
