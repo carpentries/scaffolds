@@ -10,7 +10,7 @@ cover the following topics here:
     - [RStudio Cloud](#rstudio-cloud)
     - [My Binder](#my-binder)
  - [Links to lessons](#links-to-lessons)
- - [By Language](#by-language)
+ - [By Topic](#by-topic)
     - [Git](#git)
     - [Python](#python)
     - [R](#r)
@@ -45,7 +45,7 @@ Advantages:
 
 Drawbacks:
  
- - **No nano text editor**
+ - **No nano text editor** (SOLUTION: use RStudio's text editor)
  - Limited support for modern Python
  - Only RStudio interface provided (no Jupyter Notebooks)
 
@@ -217,7 +217,7 @@ Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python
 
 [Read instructions here](#openrefine)
 
-# By Language
+# By Topic
 
 ## Git
 
@@ -238,10 +238,17 @@ using RStudio Cloud](#rstudio-cloud) in this document.
 
 Here are the steps for setting up a Git session within RStudio Cloud:
 
+#### Creating an RStudio Cloud account
+
+> Note, if they already have an RStudio Cloud account, they can skip this step
+
 1. Navigate your browser to <https://rstudio.cloud> and login/sign up as needed
   ![Login screen for RStudio Cloud](img/login-rstudio.png)
 2. Once signed in, click on the "New Project" button
   ![New Project for RStudio Cloud](img/rstudio-new-project.png)
+
+##### Creating a New Project
+
 3. For consistency, when RStudio opens, create a new folder called "Desktop"
   ![Create new folder](img/rstudio-first.png)
 4. Click on the "Terminal" tab in the top left of the console window

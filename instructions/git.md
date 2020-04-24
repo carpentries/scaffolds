@@ -1,11 +1,19 @@
 To follow along with the Git lesson, we will be using RStudio Cloud. Please 
 follow these instructions carefully.
 
+
+## Creating an RStudio account
+
+> Note, if you already have an RStudio Cloud account, you can skip this step
+
 1. Navigate your browser to <https://rstudio.cloud> and click sign up or login
   ![Login screen for RStudio Cloud](img/login-rstudio.png)
 2. You should log in using one of the three provided methods (Google,
    GitHub, or create a username and password).
    ![RStudio Cloud login screen](img/rstudio-login.png)
+
+## Creating a new RStudio Project
+
 2. Once signed in, click on the "New Project" button
   ![New Project for RStudio Cloud](img/rstudio-new-project.png)
 3. When RStudio opens, create a new folder called "Desktop"

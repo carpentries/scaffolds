@@ -14,8 +14,7 @@ follow these instructions carefully.
    ![Open Refine Home](img/open-refine-home.png)
 
 
-You can use files from their computer just like the installed version of
-OpenRefine. 
+You can use files from your computer just like the installed version of OpenRefine. 
 
 
 ### Please note
