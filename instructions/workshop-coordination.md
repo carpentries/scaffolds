@@ -150,6 +150,7 @@ Once the learner has the link, here is their process:
    > Note: if you are using Jupyter Lab, the interface will look slightly different:
    > ![Image of Jupyter Lab interface creating a new Python 3 notebook](img/binder-lab-notebook.png)
 
+<a id="binder-upload"></a>
 Because data is not persistant, the learner will need to download all new
 scripts and data and re-upload them before and after breaks. 
 
