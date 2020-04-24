@@ -1,6 +1,6 @@
-# Supporting Learners with Carpentries' Scaffolds
+# Supporting Learners with Carpentries Scaffolds
 
-This document is for instructors who are looking to provide solutions for
+This document is for Instructors who are looking to provide solutions for
 learners who have had trouble installing the required software for official
 Carpentries lessons. We have designed these resources (that we are calling
 Scaffolds) to minimize the effort required for you and the learner. We will
@@ -28,33 +28,32 @@ outline their benefits and challenges in the next two sections.
 ## RStudio Cloud
 
 [RStudio Cloud][rs-cloud] is a service from [RStudio](https://rstudio.com),
-which is an online RStudio session that is free for the moment (they are still
-working on their pricing, so it may change in the future). This solution has
-been used in university classroom contexts for a couple of years and is stable.
-For more information, see this talk: <https://rstd.io/cloud-classroom>.
+which is an online RStudio session that is currently free. This solution has
+been used in university classroom contexts for a couple of years and is well maintained.
+For more information, see this presentation: <https://rstd.io/cloud-classroom>.
 
 Advantages:
 
- - Familiar interface
+ - Consistent interface
  - Rapid setup (< 2 minutes)
  - Secure interface
  - Integrated terminal with git installed
  - Rapid package installation
  - Persistent data storage
  - Projects are private by default
- - Projects can be templated and shared (this is what we are doing)
+ - Projects can be templated and shared
 
 Drawbacks:
  
- - **No nano editor**
- - Limited support for modern python
+ - **No nano text editor**
+ - Limited support for modern Python
  - Only RStudio interface provided (no Jupyter Notebooks)
 
 ### Recommended Lessons
 
-[R](#r) lessons are recommended for this solution. If you are also teaching a
-[shell](#shell) module, it is still possible to use this solution, but inform
-your learners that they should use the built in text editor for this. 
+We recommend using this solution for [R](#r)-based workshops. If your workshop also includes a
+[shell](#shell) lesson, it is still possible to use this solution, but your learners will
+need to use the built in text editor within RStudio (rather than nano). 
 
 Because of the security aspect, this is the **only interface recommended for
 [Git](#git) lessons**.
@@ -65,7 +64,7 @@ You should give the learner a project link that will have the format
 `https://rstudio.cloud/XXXXXXX` where XXXXXXX is a unique project number. From
 there, they should follow these steps:
 
-> This example shows the steps for "R for Reproducible Scientific Analysis":
+> This example shows the steps for the Software Carpentry lesson "R for Reproducible Scientific Analysis":
 > <https://rstudio.cloud/project/1151792>
 
 1. Click on the link, which will open a login prompt. They should log in using
@@ -96,30 +95,30 @@ FAQ: <https://mybinder.readthedocs.io/en/latest/faq.html>
 
 Advantages:
 
- - Identical environment to all python lessons teaching Jupyter Notebooks or
-   Jupyter Lab
- - Access to a full-featured shell with nano installed. 
- - Flexible interface (can also host Rstudio, JupyterLab, and OpenRefine)
+ - Identical environment to all Python lessons teaching Jupyter Notebooks or
+   Jupyter Lab.
+ - Access to a full-featured shell with the nano text editor installed. 
+ - Flexible interface (can also host Rstudio, JupyterLab, and OpenRefine).
 
 Drawbacks:
 
  - Startup can take anywhere from 30 seconds to 10 minutes the first time
-   (dependent on package installation, R-based lessons take much longer than python lessons).  
+   (dependent on package installation, R-based lessons take much longer than Python lessons).  
  - Files can be uploaded to the session, but the project state does not persist.
    **Between sessions, learners must save the files to their computers.**
- - 10 minutes of inactivity will result in the container being shut down with
-   all data lost. 
+ - **10 minutes of inactivity will result in the container being shut down with
+   all data lost.** 
  - [Everything done in the the Binder session is potentially visible to the world](https://mybinder.readthedocs.io/en/latest/faq.html#can-i-push-data-from-my-binder-session-back-to-my-repository)
- - Limit of 100 simultaneous users per repository
+ - Limit of 100 simultaneous users per repository.
 
 ### Recommended lessons
 
 [Python](#python) lesson are a natural choice for this environment.
 [Shell](#shell) lessons are also recommended for this due to the presence of
-nano. [OpenRefin](#openrefine) lessons can be used through this service with
+nano. [OpenRefine](#openrefine) lessons can be used through this service with
 data from the user's computer. 
 
-Due to security issues, DO NOT use this interface for the [Git](#git) lessons.
+**Due to security issues, DO NOT use this interface for the [Git](#git) lessons.**
 
 ### How to use
 
