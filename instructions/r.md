@@ -20,7 +20,7 @@ follow these instructions carefully.
 
 ### Please note
 
- - The lesson will instruct you to use nano. RStudio Cloud does not have nano
-   installed, so you will need to use RStudio's text editor under
-   <kbd>File > New > Text Document</kbd>
+ - The lesson will instruct you to use the nano text editor. RStudio Cloud does
+   not have the nano text editor installed, so you will need to use RStudio's
+   text editor under <kbd>File > New > Text Document</kbd>
  - Copy and paste keyboard shortcuts do not work, you must use the mouse.

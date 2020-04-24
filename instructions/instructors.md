@@ -136,7 +136,7 @@ You can copy these links from those listed in the [links to lessons](#links-to-l
 > learner and let it load in the background so that they don't have to wait 30
 > minutes for it to load. 
 
-Here is an example workflow from the python-novice-inflammation lesson using Jupyter Lab:
+Here is an example workflow from the Python-novice-inflammation lesson using Jupyter Lab:
 <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=tree>
 
 Once the learner has the link, here is their process:
@@ -147,6 +147,8 @@ Once the learner has the link, here is their process:
 2. Double click on the data/ directory and click on the "New" button in the top
    right to select a new Python 3 notebook.
    ![Image of Jupyter Notebook interface creating a new Python 3 notebook](img/new-py3.png)
+   > Note: if you are using Jupyter Lab, the interface will look slightly different:
+   > ![Image of Jupyter Lab interface creating a new Python 3 notebook](img/binder-lab-notebook.png)
 
 Because data is not persistant, the learner will need to download all new
 scripts and data and re-upload them before and after breaks. 
@@ -157,6 +159,10 @@ scripts and data and re-upload them before and after breaks.
    upload their notebook (which is a threestep process of pressing "Upload",
    choosing the file, and then pressing "Upload" for that file)
    ![Two step process to upload a file to Binder](img/upload-notebook.png)
+   > Note: if you are using Jupyter Lab, the interface will look slightly different:
+   > ![Image of Jupyter Lab interface highlighting the upload button in the top left](img/binder-lab-upload.png)
+
+
 
 # Links to lessons
 
@@ -245,7 +251,7 @@ Here are the steps for setting up a Git session within RStudio Cloud:
 
 ### Important caveats
 
- - RStudio Cloud does not have nano installed, so please ensure the learners 
+ - RStudio Cloud does not have the nano text editor installed, so please ensure the learners 
    know to use use RStudio’s built-in text editor. 
  - It is not possible to copy and paste into RStudio terminals using keyboard
    shortcuts, so be sure they are aware of that. 
@@ -271,8 +277,49 @@ are using this solution.
 R lessons should be hosted via [RStudio Cloud][rs-cloud]. Please [read our
 documentation on RStudio Cloud](#rstudio-cloud) for details.
 
-RStudio Cloud DOES NOT have nano installed, so your learners will have to use
+RStudio Cloud DOES NOT have the nano text editor installed, so your learners will have to use
 the text editor in RStudio to create files.
+
+## Shell
+
+Shell lessons can be hosted via either [My Binder][binder] or [RStudio
+Cloud][rs-cloud], depending on the context. 
+
+### Context: stand-alone shell workshop
+
+If the shell lesson is a stand-alone lesson, then we recommend using My Binder
+because it will have the closest interface to a standalone shell as it has nano
+installed. If you would like to use this option, then please [read our 
+documentation on My Binder](#my-binder) for details and caveats.
+
+> **Important caveat:** data is not persistant in the cloud, so any new data
+> must be saved to the user's computer beforehand. 
+
+### Context: Python workshop with shell component
+
+The [My Binder interface](#my-binder) works well with this type of workshop. 
+Please [read our documentation on My Binder](#my-binder) for details and caveats.
+
+> **Important caveat:** data is not persistant in the cloud, so any new data
+> must be saved to the user's computer beforehand. 
+
+### Context: R workshop with shell component
+
+In this case, you will be using [RStudio Cloud](#rstudio-cloud) and it's best
+to instruct learners to use the terminal inside of the RStudio window. The
+learners can open the terminal like this:
+
+1. Click on the "Terminal" tab in the top left of the console window
+  ![Click on Terminal tab](img/rstudio-terminal.png)
+2. The command prompt will look similar to this image
+  ![RStudio command prompt](img/rstudio-cmd.png)
+
+Please [read our documentation on RStudio Cloud](#rstudio-cloud) for details and
+caveats.
+ 
+> **Important caveat:** the nano text editor is not installed, so please instruct the learners to
+> create a new text file when they need to use nano: 
+> <kbd>File > New File > Text File</kbd>
 
 ## OpenRefine
 
@@ -294,7 +341,6 @@ session. Please ignore the yellow warning bar at the top saying there is a new
 version of OpenRefine.
 
 ![Open Refine Home](img/open-refine-home.png)
-
 
 The learner can use files from their computer just like the installed
 version of OpenRefine. The only known issue is that it is not currently
