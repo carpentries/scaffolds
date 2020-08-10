@@ -15,7 +15,7 @@ cover the following topics here:
     - [Python](#python)
     - [R](#r)
     - [Shell](#shell)
-    - [OpenRefine](#openrefine)
+    - [OpenRefine](#openrefine-1)
 
 # Platforms
 
@@ -172,34 +172,34 @@ scripts and data and re-upload them before and after breaks.
 
 ### Shell Novice
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/shell.md>
+Instructions for learners: [shell.md]
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=lab>
 
 ### Python Novice Inflammation
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/python.md>
+Instructions for learners: [python.md]
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab>
 
 ### Python Novice Gapminder
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/python.md>
+Instructions for learners: [python.md]
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab>
 
 ### R Novice Inflammation
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+Instructions for learners: [r.md]
 
 Link to project: <https://rstudio.cloud/project/1167299>
 
 ### R Gapminder
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+Instructions for learners: [r.md]
 
 Link to project: <https://rstudio.cloud/project/1151792>
 
@@ -207,26 +207,26 @@ Link to project: <https://rstudio.cloud/project/1151792>
 
 ### Python Ecology
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/python.md>
+Instructions for learners: [python.md]
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=lab>
 
 ### R Ecology
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+Instructions for learners: [r.md]
 
 Link to project: <https://rstudio.cloud/project/1167280>
 
 ### R Social Science
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+Instructions for learners: [r.md]
 
 Link to Resources: <https://rstudio.cloud/project/1167422>
 
 ### R Geospatial
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/r.md>
+Instructions for learners: [r.md]
 
 Link to Resources: <https://rstudio.cloud/project/1167320>
 
@@ -234,9 +234,9 @@ Link to Resources: <https://rstudio.cloud/project/1167320>
 
 ### OpenRefine
 
-Instructions for learners: <https://github.com/carpentries/scaffolds/blob/master/instructions/openrefine.md>
+Instructions for learners: [OpenRefine.md]
 
-[Read instructions here](#openrefine)
+[Read instructions here](#openrefine-1)
 
 # By Topic
 
