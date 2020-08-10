@@ -236,6 +236,8 @@ Link to Resources: <https://rstudio.cloud/project/1167320>
 
 Instructions for learners: [OpenRefine.md](OpenRefine.md)
 
+Link to Resources: <https://mybinder.org/v2/gh/betatim/openrefineder/master?urlpath=%2Fopenrefine>
+
 [Read instructions here](#openrefine-1)
 
 # By Topic
