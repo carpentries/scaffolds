@@ -172,34 +172,34 @@ scripts and data and re-upload them before and after breaks.
 
 ### Shell Novice
 
-Instructions for learners: [shell.md]
+Instructions for learners: [shell.md](shell.md)
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-shell-novice?urlpath=lab>
 
 ### Python Novice Inflammation
 
-Instructions for learners: [python.md]
+Instructions for learners: [python.md](python.md)
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-inflammation?urlpath=lab>
 
 ### Python Novice Gapminder
 
-Instructions for learners: [python.md]
+Instructions for learners: [python.md](python.md)
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/swc-python-novice-gapminder?urlpath=lab>
 
 ### R Novice Inflammation
 
-Instructions for learners: [r.md]
+Instructions for learners: [r.md](r.md)
 
 Link to project: <https://rstudio.cloud/project/1167299>
 
 ### R Gapminder
 
-Instructions for learners: [r.md]
+Instructions for learners: [r.md](r.md)
 
 Link to project: <https://rstudio.cloud/project/1151792>
 
@@ -207,26 +207,26 @@ Link to project: <https://rstudio.cloud/project/1151792>
 
 ### Python Ecology
 
-Instructions for learners: [python.md]
+Instructions for learners: [python.md](python.md)
 
 Jupyter Notebook: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=tree>    
 Jupyter Lab: <https://mybinder.org/v2/gh/carpentries/scaffolds/dc-ecology-python?urlpath=lab>
 
 ### R Ecology
 
-Instructions for learners: [r.md]
+Instructions for learners: [r.md](r.md)
 
 Link to project: <https://rstudio.cloud/project/1167280>
 
 ### R Social Science
 
-Instructions for learners: [r.md]
+Instructions for learners: [r.md](r.md)
 
 Link to Resources: <https://rstudio.cloud/project/1167422>
 
 ### R Geospatial
 
-Instructions for learners: [r.md]
+Instructions for learners: [r.md](r.md)
 
 Link to Resources: <https://rstudio.cloud/project/1167320>
 
@@ -234,7 +234,7 @@ Link to Resources: <https://rstudio.cloud/project/1167320>
 
 ### OpenRefine
 
-Instructions for learners: [OpenRefine.md]
+Instructions for learners: [OpenRefine.md](OpenRefine.md)
 
 [Read instructions here](#openrefine-1)
 
