@@ -48,6 +48,8 @@ Drawbacks:
  - **No nano text editor** (SOLUTION: use RStudio's text editor)
  - Limited support for modern Python
  - Only RStudio interface provided (no Jupyter Notebooks)
+ - Limited time for free accounts (15 hours per month)
+ - Session stops after 10 minutes of activity
 
 ### Recommended Lessons
 

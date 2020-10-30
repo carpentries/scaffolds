@@ -45,6 +45,13 @@ This resource is exclusively for R-based lessons. It requires a login from
 users, either through Google, GitHub, or on-site registration. The templates 
 were created by hand and are not explicitly synched with this repository. 
 
+There are different tiers for this resource, the basic being the free tier,
+which most learners will be using and there are limitations:
+
+ - sessions expire after 10 minutes of activity
+ - users have 15 hours of computation time **per month**, which includes parallel
+   computation and inactivity.
+
 --------------------------------------------------------------------------------
 
 # How this repository works
