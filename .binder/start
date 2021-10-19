@@ -25,4 +25,4 @@
 #
 export MANPATH="${HOME}/.binder/man"
 
-eval "$@"
+exec "$@"
